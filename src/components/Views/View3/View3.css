@@ -1,0 +1,22 @@
+.groups {
+    display: flex;
+    overflow-x: auto;
+    direction: rtl;
+    transform: rotate(180deg);
+    align-items: flex-end;
+}
+
+.block {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    transform: rotate(-180deg);
+    direction: ltr;
+}
+
+.person {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 0;
+}

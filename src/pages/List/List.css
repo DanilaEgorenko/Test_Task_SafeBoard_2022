@@ -1,0 +1,22 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    margin: 20px;
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-image: url('../../../public/assets/loader.gif');
+    background-position: center;
+    background-size: contain;
+}
+
+.hidden {
+    visibility: hidden;
+}
